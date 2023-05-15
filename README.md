@@ -24,4 +24,6 @@ Example results of the script running:
 < 9c0e185ee1f800d1378beb1c6b99229c   /META-INF/io.netty.versions.properties
 ```
 
-I didn't know that apktool could eat some of the app's files. I thought it's 1=1 extractor! I should investigate reasons why that happens.
+I didn't know that apktool could eat some of the app's files. I thought it's 1=1 extractor! I should investigate reasons why that happens. 
+
+The interesting part is that apktool ignores only those files listed, there IS a directory /META-INF/ but only those files are missing!
